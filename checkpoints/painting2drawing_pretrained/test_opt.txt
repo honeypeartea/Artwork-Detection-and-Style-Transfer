@@ -9,7 +9,7 @@
                     epoch: latest                        
                      eval: False                         
                   gpu_ids: 0                             
-                      img: /home/xmh/Desktop/datasets/HALF_T/0000020_RP-T-00-600.jpg	[default: None]
+                      img: /home/xmh/Desktop/GitHub/pytorch-CycleGAN-and-pix2pix/datasets/foto2schilderij/trainA/0024522_RP-F-1905-204-A.jpg	[default: None]
                 init_gain: 0.02                          
                 init_type: normal                        
                  input_nc: 3                             

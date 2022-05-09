@@ -4,7 +4,6 @@ from models import create_model
 import options.util as util
 import numpy as np
 import sys, os
-import argparse
 import cv2
 
 
@@ -17,6 +16,9 @@ def main():
     opt.serial_batches = True  # disable data shuffling; comment this line if results on randomly chosen images are needed.
     opt.no_flip = True  # no flip; comment this line if results on flipped images are needed.
     opt.display_id = -1  # no visdom display; the test code saves the results to a HTML file.
+    opt.model = 'test'
+    opt.no_dropout = True
+    opt.preprocess = None
     model = create_model(opt)
     model.setup(opt)  # regular setup: load and print networks; create schedulers
 
@@ -30,7 +32,7 @@ def main():
 
 
 
-    images = cv2.imread("/home/xmh/Pictures/Screenshot from 2022-02-07 11-39-53.png")
+    images = cv2.imread(opt.img)
     images = np.array(images)
 
     A = preprocess(images).unsqueeze_(0)
