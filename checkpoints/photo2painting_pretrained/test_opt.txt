@@ -20,7 +20,7 @@
                     model: test                          
              model_suffix:                               
                n_layers_D: 3                             
-                     name: painting2drawing_pretrained   	[default: experiment_name]
+                     name: photo2painting_pretrained     	[default: experiment_name]
                       ndf: 64                            
                      netD: basic                         
                      netG: resnet_9blocks                

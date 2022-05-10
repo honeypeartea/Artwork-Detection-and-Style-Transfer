@@ -44,7 +44,8 @@ def main():
     visuals = model.get_current_visuals()  # get image results
     for label, im_data in visuals.items():
         fake = util.tensor2im(im_data)
-        util.save_image(fake, '/home/xmh/Desktop/fake_B.png')
+
+        util.save_image(fake, "result/" + opt.name + ".jpg")
 
 
 
