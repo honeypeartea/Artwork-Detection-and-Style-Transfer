@@ -31,6 +31,7 @@ we train the model from photo to drawing, drawing to photo, painting to drawing,
 
 ### Usage
 pip install -r requirements.txt
+
 Python transform.py --img your_image_file --name model_name
 
 --img is your input image path
