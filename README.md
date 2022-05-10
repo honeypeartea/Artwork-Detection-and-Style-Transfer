@@ -1,6 +1,6 @@
 # Artwork-Detection-and-Style-Transfer
 
-**[PyTorch Colab](https://colab.research.google.com/drive/137a1Q-XYZZRvNoTa9nQ6oDJGc8p7IdBf#scrollTo=-9VDfC-ie19P)**
+**[Colab](https://colab.research.google.com/drive/137a1Q-XYZZRvNoTa9nQ6oDJGc8p7IdBf#scrollTo=-9VDfC-ie19P)**
 
 ## Intrdouction
 Our Artwork Detection and Style Transfer project focus on museum artwork image detection and style transfer. It mainly contains three parts, the image classification, object detection, and style transfer.
